@@ -1,43 +1,83 @@
-# Getting Started with Create React App
+# Template para proyecto en React usando Redux y Typescript
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Luego de clonar el repositorio en el directorio local ejecutar el comando
 
-## Available Scripts
+`npm install`
 
-In the project directory, you can run:
+Esto instala todas las dependencias que el proyecto requiere
 
-### `npm start`
+Ejecutar, para navegar dentro de la carpeta del proyecto
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+`cd template-react-redux-typescript`
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+Una vez dentro, ejecutar la sentencia
 
-### `npm test`
+`npm start`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Estructura de carpetas
 
-### `npm run build`
+template-react-redux-typescript
+├── .gitignore
+├── README.md
+├── package.json
+├── node_modules
+├── tsconfig.json
+├── public
+│   ├── favicon.ico
+│   ├── index.html
+│   └── manifest.json
+└── src
+    ├── index.css
+    ├── index.tsx
+    ├── react-app-env.d.ts
+    ├── reportWebVitals.ts
+    ├── setupTest.js
+    ├── assets
+    │   ├── icons
+    │   ├── images
+    ├── components
+    │   ├── Componente
+    │   │   ├── Componente.tsx
+    │   │   ├── Componente.css
+    │   │   ├── utils.tsx
+    │   │   └── lang.json
+    ├── pages
+    │   ├── index.tsx
+    │   ├── Page
+    │   │   ├── Page.tsx
+    │   │   ├── Page.css
+    │   │   ├── utils.tsx
+    │   │   └── lang.json
+    ├── parts
+    │   ├── Part
+    │   │   ├── Part.tsx
+    │   │   ├── Part.css
+    │   │   ├── utils.tsx
+    │   │   └── lang.json
+    ├── services
+    │   ├── api
+    │   │   └── api.tsx
+    ├── store
+    │   ├── hooks.ts
+    └── └── store.ts
+     
+## Guia tecnica
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Los detalles de como funciona el proyecto se encuentran en este [documento](https://docs.google.com/document/d/1lpKIL2W5_D556O3PJhsQLfvDKN7cJFsu-xEqE6kitg8/edit?usp=sharing)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Ejemplo de uso
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Ejecutar la sentencia:
 
-### `npm run eject`
+`git checkout -b ejemplo01`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+Luego:
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+`git pull origin ejemplo01`
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+Deberia descargar todo el proyecto de ejemplo. Ejecutamos:
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+`npm start`
 
 ## Learn More
 
