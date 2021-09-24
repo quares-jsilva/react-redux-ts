@@ -15,7 +15,7 @@ Una vez dentro, ejecutar la sentencia
 `npm start`
 
 ## Estructura de carpetas
-
+```
 template-react-redux-typescript
 ├── .gitignore
 ├── README.md
@@ -60,7 +60,7 @@ template-react-redux-typescript
     ├── store
     │   ├── hooks.ts
     └── └── store.ts
-     
+```
 ## Guia tecnica
 
 Los detalles de como funciona el proyecto se encuentran en este [documento](https://docs.google.com/document/d/1lpKIL2W5_D556O3PJhsQLfvDKN7cJFsu-xEqE6kitg8/edit?usp=sharing)
