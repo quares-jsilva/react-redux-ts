@@ -35,6 +35,8 @@ template-react-redux-typescript
     ├── assets
     │   ├── icons
     │   ├── images
+    │   ├── styles
+    │   │   └── bootstrap-grid.min.css
     ├── components
     │   ├── Componente
     │   │   ├── Componente.tsx

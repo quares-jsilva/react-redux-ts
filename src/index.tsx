@@ -1,4 +1,5 @@
 import "./index.css";
+import "./assets/styles/bootstrap-grid.min.css"
 import React from "react";
 import ReactDOM from "react-dom";
 import reportWebVitals from "./reportWebVitals";
