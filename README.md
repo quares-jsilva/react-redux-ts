@@ -14,9 +14,12 @@ Una vez dentro, ejecutar la sentencia
 
 `npm start`
 
+Se abrirá una ventana del navegador con localhost:3000, ahi, estará el proyecto corriendo.
+
 ## Estructura de carpetas
 ```
 template-react-redux-typescript
+├── .env
 ├── .gitignore
 ├── README.md
 ├── package.json
@@ -69,6 +72,10 @@ Los detalles de como funciona el proyecto se encuentran en este [documento](http
 
 ## Ejemplo de uso
 
+Dentro de git se encuentra un ejemplo de uso, con el fin de mostrar
+cual es el proposito de cada carpeta, como se administran los componentes,
+la información de la store de redux, los tipos, estilos entre otros detalles.
+
 Ejecutar la sentencia:
 
 `git checkout -b ejemplo01`
@@ -80,6 +87,8 @@ Luego:
 Deberia descargar todo el proyecto de ejemplo. Ejecutamos:
 
 `npm start`
+
+Tendremos el proyecto corriendo en localhost:3000
 
 ## Learn More
 
